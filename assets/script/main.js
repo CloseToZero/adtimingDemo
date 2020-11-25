@@ -1,6 +1,6 @@
 if (CC_EDITOR) {
   Editor.info(
-    "Please fill the AdTiming app key in assets/script/main.js script first"
+    "Please fill the AdTiming app key in AdTiming service panel first"
   );
 }
 
