@@ -1,5 +1,3 @@
-const APP_KEY = "Please fill in your AdTiming app key";
-
 if (CC_EDITOR) {
   Editor.info(
     "Please fill the AdTiming app key in assets/script/main.js script first"
@@ -121,7 +119,12 @@ cc.Class({
       this.sdkInitListenersAdded = true;
     }
 
-    AdTiming.init(APP_KEY);
+    // Pass null, undefined or empty string as app key will cause AdTiming to
+    // use the app key you chosen in Cocos AdTiming service panel.
+    // You can also pass the app key explicitly if you wish.
+    AdTiming.init();
+    // Use AdTiming.init(null, AdTiming.AdTypes.Interstitial | AdTiming.AdTypes.RewardedVideo);
+    // to preload specific Ad types.
   },
 
   onShowBannerAdBtnClicked() {
