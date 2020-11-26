@@ -119,11 +119,11 @@ cc.Class({
       this.sdkInitListenersAdded = true;
     }
 
-    // Pass null, undefined or empty string as app key will cause AdTiming to
+    // Pass undefined or empty string as app key will cause AdTiming to
     // use the app key you chosen in Cocos AdTiming service panel.
     // You can also pass the app key explicitly if you wish.
     AdTiming.init();
-    // Use AdTiming.init(null, AdTiming.AdTypes.Interstitial | AdTiming.AdTypes.RewardedVideo);
+    // Use AdTiming.init("", AdTiming.AdTypes.Interstitial | AdTiming.AdTypes.RewardedVideo);
     // to preload specific Ad types.
   },
 
