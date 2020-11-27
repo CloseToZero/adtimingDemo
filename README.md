@@ -1,7 +1,5 @@
 # AdTiming Demo
 
-[**AdTiming**](https://www.adtiming.com/):
-A global marketing platform that is designed to maximize revenue and improve advertising efficiency, a comprehensive supply chain from advertisement to monetization.
+* [English documentation](README.en.md)
 
-This is a simple demo of AdTiming SDK, please fill in your AdTiming app key
-in AdTiming service panel before you testing the demo.
+* [中文文档](README.zh.md)
