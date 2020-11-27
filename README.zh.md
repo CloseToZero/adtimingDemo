@@ -100,7 +100,7 @@ AdTiming.init();
 示例：
 
 ```JavaScript
-// 第一个参数是横幅广告的placement ID ， 请在 AdTiming 后台获取。
+// 第一个参数是横幅广告的placement ID ，请在 AdTiming 后台获取。
 // 第二个参数是横幅广告的大小。
 // 第三个参数是横幅广告的位置，可以是顶部或者底部。
 AdTiming.loadBannerAd('1234', AdTiming.AdSize.Smart, AdTiming.BannerAdPosition.Top);
