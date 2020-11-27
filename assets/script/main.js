@@ -120,7 +120,7 @@ cc.Class({
     }
 
     // Pass undefined or empty string as app key will cause AdTiming to
-    // use the app key you chosen in Cocos AdTiming service panel.
+    // use the app key you entered in Cocos AdTiming service panel.
     // You can also pass the app key explicitly if you wish.
     AdTiming.init();
     // Use AdTiming.init("", AdTiming.AdTypes.Interstitial | AdTiming.AdTypes.RewardedVideo);
